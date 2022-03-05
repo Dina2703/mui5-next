@@ -15,7 +15,7 @@ const Homepage = () => {
         subtitle="this is a subtitle"
       />
       <SectionAbout />
-      <SectionImage imgSrc="/products.jpg" imgAlt="fusion food" />
+      <SectionImage imgSrc="/products.jpg" imgAlt="print products" />
       <SectionReview />
     </>
   );
