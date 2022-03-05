@@ -1,6 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
+import ArrowDownward from "@mui/icons-material/ArrowDownward";
 
 const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
   return (
@@ -54,6 +55,10 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
           >
             {subtitle}
           </Typography>
+          <Typography component="p" variant="h6" color="secondary" gutterBottom>
+            Scroll
+          </Typography>
+          <ArrowDownward fontSize="large" color="secondary" />
         </Grid>
       </Grid>
     </Grid>
