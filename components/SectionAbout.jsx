@@ -18,7 +18,15 @@ const SectionAbout = () => {
             height={700}
           />
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid
+          item
+          xs={12}
+          sm={6}
+          container
+          flexDirection="column"
+          justifyContent="center"
+          alignItems="center"
+        >
           <Typography
             component="h2"
             variant="h5"
@@ -30,7 +38,7 @@ const SectionAbout = () => {
           <Typography textAlign="center" variant="body2">
             {`Мы предлагаем качественные услуги печати для широкого спектра продуктов, чтобы удовлетворить все потребности вашего бизнеса — от визитных карточек, брошюр, листовок до этикеток и больших баннеров. Что бы вам ни понадобилось напечатать, у нас есть решения для печати, которые помогут вашему бизнесу добиться успеха`}
           </Typography>
-          <MuiNextLink href="/about-us">
+          <MuiNextLink href="/about-us" underline="none">
             <Button variant="outlined" size="large" sx={{ mt: 2 }}>
               About Us
             </Button>
