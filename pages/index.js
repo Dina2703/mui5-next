@@ -1,6 +1,7 @@
 import Container from "@mui/material/Container";
 import Hero from "../components/Hero";
 import SectionAbout from "../components/SectionAbout";
+import SectionImage from "../components/SectionImage";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
         subtitle="this is a subtitle"
       />
       <SectionAbout />
+      <SectionImage imgSrc="/products.jpg" imgAlt="fusion food" />
     </>
   );
 };
